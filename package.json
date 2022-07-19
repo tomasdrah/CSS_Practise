@@ -1,0 +1,24 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styles": "node compilations/sass.js",
+    "live_server": "live-server --root dist --open=html/example.html",
+    "http_server": "http-server dist -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "_devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1",
+    "sass": "^1.49.9",
+    "fs-extra": "^10.1.0"
+  }
+}
