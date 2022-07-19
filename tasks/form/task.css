@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 section {
     border: 10px black solid;
     border-radius: 20px;
@@ -12,3 +17,42 @@ h1 {
     margin: 20px;
     text-align: center;
 }
+
+.button{
+    background-color: darkgrey;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.row{
+    margin: 5px 7px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+}
+.button-submit{
+    margin: 7px auto;
+    display: block;
+}
+
+label{
+}
+input[type=text],input[type=checkbox]{
+    margin: 0;
+}
+input[type=submit]{
+}
+
+
